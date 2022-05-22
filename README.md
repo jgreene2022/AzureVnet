@@ -26,7 +26,7 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly secure, in addition to restricting access to the network.
-- In addition to security load balancers assist in the access of availablity to the network? The jump box also give us a security advantage to monitor/controll access of our virtual network.
+- In addition to security load balancers assist in the access of availablity to the network. The jump box also give us a security advantage to monitor/controll access of our virtual network.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system.
 - Filebeat is a lightweight shipper for forwarding and centralizing log data.
