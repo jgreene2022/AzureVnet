@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 ![redteamvnet](https://user-images.githubusercontent.com/98893750/169672466-600cccff-0708-489d-ba3c-85707af4c33c.jpg)
 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the file may be used to install only certain pieces of it, such as Filebeat.
 
   - metricbeat-playbook.yml
   - filebeat-playbook.yml
@@ -26,10 +26,10 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly secure, in addition to restricting access to the network.
-- In addition to security load balancers assist in the access of availablity to the networkt? The jump box also give us a security advantage to monitor/controll access of our virtual network.
+- In addition to security load balancers assist in the access of availablity to the network? The jump box also give us a security advantage to monitor/controll access of our virtual network.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system system.
-- Filebeat is a lightweight shipper for forwarding and centralizing log data
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system.
+- Filebeat is a lightweight shipper for forwarding and centralizing log data.
 - Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
